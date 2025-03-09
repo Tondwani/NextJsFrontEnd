@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+// import { Form, Input, Button } from 'antd';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -18,9 +19,11 @@ const ContactForm = () => {
     }));
   };
 
+
+  // The icons are now smaller (h-4 w-4 instead of h-5 w-5)//
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission - would connect to API in a real application
+    // Handle form submission  would connect to API in a application
     console.log('Form submitted:', formData);
     // Reset form
     setFormData({
@@ -96,7 +99,7 @@ const ContactForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md font-medium hover:bg-indigo-700 transition"
+            className="w-full bg-indigo-600 text-purple py-2 px-4 rounded-md font-medium hover:bg-indigo-700 transition"
           >
             Send Message
           </button>

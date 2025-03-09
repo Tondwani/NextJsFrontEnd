@@ -23,10 +23,6 @@ jobs:
         run: npm run build
 
 
-      # - name: Deploy to Vercel
-      #   run: |
-      #     npm install -g vercel
-      #       vercel --prod --yes --token=${{ secrets.GITHUB_TOKEN}}
 
 
           

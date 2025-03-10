@@ -1,4 +1,4 @@
-name: Build pipleline
+name: FusionGym Deploy
 
 on:
   push:
@@ -22,11 +22,6 @@ jobs:
       - name: Build Project
         run: npm run build
 
-
-      # - name: Deploy to Vercel
-      #   run: |
-      #     npm install -g vercel
-      #       vercel --prod --yes --token=${{ secrets.GITHUB_TOKEN}}
 
 
           

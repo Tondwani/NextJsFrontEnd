@@ -102,11 +102,13 @@ const Header = () => {
             >
               Contact Us
             </Link>
-            <a
+            <Link
+              href="/form"
               className="btn btn-primary"
+              onClick={() => setIsMenuOpen(false)}
             >
               Get Started
-            </a>
+            </Link>
           </nav>
         )}
       </div>
@@ -115,3 +117,4 @@ const Header = () => {
 };
 
 export default Header;
+

@@ -1,14 +1,20 @@
+interface TeamMember {
+  name: string;
+  role: string;
+  bio: string;
+}
+
 const TeamSection = () => {
-const teamMembers: TeamMember[] = [
+  const teamMembers: TeamMember[] = [
     {
       name: "Mahlakhu",
       role: "Founder & CEO",
       bio: "Former personal trainer with a passion for making fitness accessible to everyone."
     },
     {
-      name: "Sarah Williams",
+      name: "Kabelo Matima",
       role: "Head of Nutrition",
-      bio: "Registered dietitian with over 10 years of experience in sports nutrition."
+      bio: "Registered dietitian with over 5 years of experience in sports nutrition."
     },
     {
       name: "Tondwani Craig",

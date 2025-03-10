@@ -1,4 +1,4 @@
-import { Button } from '../UI/button';
+import { Button } from '../ui/button';
 
 const HeroSection = () => {
   return (
